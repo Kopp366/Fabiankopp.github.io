@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <link   rel="stylesheet" type="text/css" href="css/style.css" >
+</head>
+<body>
+    <?php 
+    include('encabezado.php');
+    ?>
+    
+
+    <di class="contenedor">
+    <h1 style="text-align: center;font-size: 40px;">EJERCICIOS DE ALGORITMOS</h1>
+    <br>
+    <section> 
+        <h1 class="Ejercicios">Repetitivos</h1>
+        <a href="Repetitivos/factorial.php">Calculadora de Factorial</a>
+        <br>
+        <br>
+        <a href="Repetitivos/sumar_10_numeros.php">sumatoria de numeros</a>
+        <br>
+        <br>
+        <a href="Repetitivos/salario.php">salario en x años</a>
+        <br>
+        <br>
+       
+    </section>
+    <br>
+    <section>
+        <h1 class="Ejercicios">Secuenciales</h1>
+       
+        <a href="Secuenciales/valorestriangulo.php">Valores de un Triángulo</a>
+        <br>
+        <br>
+        <a href="Secuenciales/valorescirculo.php">Valores de un Circunferencia</a>
+        <br>
+        <br>
+        <a href="Secuenciales/valorescuadrado.php">Valores de un Cuadrado</a>
+        <br>
+        <br>
+    </section>
+    <br>
+    <section>
+        <h1 class="Ejercicios"> Condicionales</h1>
+        <a href="Condicionales/analisis.php">Analisis de 4 numeros</a>
+        <br>
+        <br>
+        <a href="Condicionales/mayor.php">numero mayor</a>
+        <br>
+        <br>
+        <a href="Condicionales/numeromayore.php">numero mayor entre tres numeros</a>
+        <br>
+        <br>
+    </section>
+    <br>
+     </di>
+
+     <?php 
+    include('piedepagina.php');
+    ?>
+
+    
+</body>
+</html>
